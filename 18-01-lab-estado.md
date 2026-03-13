@@ -446,18 +446,17 @@ class PanelCodigoSecreto extends Component {
     }
     this.handleClick = this.handleClick.bind(this);
   }
-```
 handleClick(event) {
-```tsx
+
 const teclaPulsada = event.target.textContent;
 const { codigoActual, codigoSecreto } = this.state;
 
 if (teclaPulsada === 'CLD') {
 
 } else if (teclaPulsada === 'DEL') {
-```
+
 } else {
-```tsx
+
 if (codigoActual.length < 4) {
 
     }
